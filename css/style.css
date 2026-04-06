@@ -1,1 +1,27 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.stamp-cutter {
+  position: absolute;
+  z-index: 100;
+  width: 250px;
+}
+.stamp-cutter img {
+  width: inherit;
+}
+.stamp-cutter .post-area {
+  background-color: rgba(255, 127, 127, 0.6823529412);
+  width: 29.5%;
+  height: 21.3%;
+  position: absolute;
+  top: 19%;
+  left: 35.487%;
+}/*# sourceMappingURL=style.css.map */
